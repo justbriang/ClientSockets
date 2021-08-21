@@ -22,12 +22,10 @@ import javafx.stage.Stage;
 import javafx.stage.Window;
 
 public class Main extends Application {
-    private Client client;
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-//        r
+
 //        GridPane gridPane = createClientFormPane();
 //        addClientUIControls(gridPane);
 
